@@ -1,15 +1,9 @@
 return {
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
 
-  -- Use `opts = {}` to force a plugin to be loaded.
-  --  This is equivalent to:
-  --    require('Comment').setup({})
-
   { 'numToStr/Comment.nvim', opts = {} }, -- "gc" to comment visual regions/lines
 
-  {
-    'tpope/vim-fugitive',
-  },
+  { 'tpope/vim-fugitive' },
 
   -- See `:help gitsigns` to understand what the configuration keys do
   { -- Adds git related signs to the gutter, as well as utilities for managing changes
